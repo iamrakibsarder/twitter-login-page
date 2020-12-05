@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #15202b;
+}
+.main-box{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.main-box .logo{}
+.main-box .logo img{
+    height: 70px;
+    width: 70px;
+}
+
+.main-box h2{
+    color: white;
+}
+
+.main-box form{}
+.main-box form .box{
+    text-align: left !important;
+    box-sizing: border-box !important;
+    width: 500px !important;
+    margin: 25px 0;
+    padding: 10px;
+    background: #192734 !important;
+    border-bottom: 2px solid #8899a6 !important;
+}
+.main-box form .box:focus{
+	color: #1da1f2;
+}
+.main-box form .box label{
+    color: #8899a6;
+}
+.main-box form .box input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+}
+.main-box form .box input:focus{
+	outline: none;
+}
+.main-box form input{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    background: #1da1f2;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+.bottom {
+	margin-top: 20px;
+}
+.bottom .forget{}
+.bottom .forget a{
+	color: #1da1f2 !important;
+	text-decoration: none;
+}
+.bottom .forget a:hover{
+	text-decoration: underline;
+}
+.bottom .sign-up{}
+.bottom .sign-up a{
+	color: #1da1f2 !important;
+	text-decoration: none;
+}
+.bottom .sign-up a:hover{
+	text-decoration: underline;
+}
